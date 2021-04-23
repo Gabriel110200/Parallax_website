@@ -1,0 +1,131 @@
+*{
+    margin:0; 
+    padding:0;
+}   
+
+body{
+    text-align:center; 
+}
+
+
+.homepage{
+    
+    height:100vh;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    position:relative;
+}  
+
+.homepage::before{ 
+    content: ' ';
+    background-image: url(images/photo-1477959858617-67f85cf4f1df.jpg); 
+    opacity: 0.5;  
+    position:absolute;  
+    background-attachment: fixed;
+    top:0; 
+    left:0;
+    right:0; 
+    bottom:0px;
+}
+
+ .homepage h1{
+    width:auto;  
+    color:white; 
+    padding:15px; 
+    background-color:rgba(0,0,0,0.9); 
+    letter-spacing: 5px; 
+    font-size:30px;  
+    position:relative; 
+    text-transform: uppercase;
+   
+} 
+
+.section-one{
+    background-color:rgb(243, 242, 242); 
+    min-height:200px;
+    display:flex; 
+    flex-direction: column;
+    justify-content:space-evenly;  
+    align-items:center; 
+    opacity:0.9; 
+    padding:30px 0px;
+    
+} 
+
+
+
+ p{
+    width:80%; 
+    font-size:17px;
+}
+
+.imagesection{
+      
+     height:100vh; 
+     max-height:400px; 
+     background-size:cover; 
+     color:white; 
+     background-attachment: fixed;
+     display:flex; 
+     align-items:center; 
+     justify-content: center;
+}  
+
+.imagesection:nth-of-type(2){ 
+    background-image:url(images/ugur-akdemir-FABH5NJEMGM-unsplash.jpg); 
+    background-position:center; 
+   
+  
+} 
+
+.imagesection:nth-of-type(3){ 
+    background-image:url(images/jonathan-roger-LY1eyQMFeyo-unsplash.jpg); 
+    background-position:center;
+
+   
+  
+}
+
+.equalsection{
+    min-height:200px; 
+    display:flex; 
+    flex-direction: column; 
+    background-color:rgba(0, 0, 0, 0.8);
+    align-items:center; 
+    color:white; 
+    justify-content:space-evenly; 
+    padding:20px 0;
+} 
+
+.FinalPage{
+   
+    height:100vh; 
+    display:flex; 
+    align-items:center; 
+    justify-content: center;  
+    position:relative;
+
+}  
+
+.FinalPage::before{  
+    content: ' ';
+    background-image: url(images/photo-1477959858617-67f85cf4f1df.jpg); 
+    opacity: 0.5;  
+    position:absolute;  
+    background-attachment: fixed;
+    top:0; 
+    left:0;
+    right:0; 
+    bottom:0px;
+}
+
+.FinalPage h1{ 
+    
+    background-color:black; 
+    color:white; 
+    padding:15px; 
+    text-transform:uppercase; 
+    letter-spacing:5px; 
+    position:relative;
+} 
